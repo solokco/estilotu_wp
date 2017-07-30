@@ -4,5 +4,5 @@
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteCond %{REQUEST_FILENAME} !-f
   # Replace http://stevegrunwell.com with your production site's domain name
-  RewriteRule (.*) https://estilotu.com/wp-content/uploads/$1
+  RewriteRule (.*) http://estilotu.com/wp-content/uploads/$1
 </IfModule>

@@ -1,0 +1,364 @@
+/* css for check code shortcode */
+.woo-vou-check-code{
+	border : 1px solid #EDEDED !important;
+}
+.woo-vou-check-code td{
+	border-top : none !important;
+	padding: 10px 10px 10px 0 !important;
+}
+.woo-vou-check-code label{
+	padding-left : 10px;
+}
+.woo-vou-check-code{
+	padding-left : 10px;
+}
+.woo-vou-check-code th{
+  font-weight: 600 !important;
+  line-height: 1.3 !important;
+  padding: 20px 10px 20px 0 !important;
+  text-align: left !important;
+  vertical-align: top !important;
+  width: 120px !important;
+  text-transform: none !important;
+}
+
+
+tr.woo-vou-used-codes-row-body td {
+  width: 100px;
+  word-break: break-all;
+}
+
+@media only screen and (max-width: 769px) {
+.woo-vou-check-code th {
+  border-bottom: 0 none;
+  padding-bottom: 0;
+  padding-top: 10px;
+}
+.woo-vou-check-code td, .woo-vou-check-code th {
+  display: block;
+  vertical-align: middle;
+  width: auto;
+}
+.woo-vou-check-code td input[type="text"]{
+  display: block;
+  font-size: 16px;
+  line-height: 1.5;
+  max-width: none;
+  padding: 7px 10px;
+  width: 92%;
+}
+}
+/* css for check code shortcode end */
+.woo-vou-recipient-fields td{
+	padding: 3px;
+}
+.woo-vou-fields-wrapper-variation{
+  display: none;
+}
+
+
+/*************** Recipient CSS *************/
+.woo-vou-recipient-fields {
+    margin-bottom: 1em;
+}
+.woo-vou-recipient-fields label {
+    font-weight: bold;
+}
+.woo-vou-recipient-fields input[type="text"], .woo-vou-recipient-fields textarea {
+    float: left;
+    width: 100%;
+}
+.woo-vou-recipient-fields td.label {
+    padding-right: 1em;
+}
+.woo-vou-recipient-fields td {
+    padding-bottom: 8px;
+    vertical-align: top;
+}
+.woo-vou-recipient-fields .voucher-image-option {
+    float: left;
+    margin: 5px;
+    padding: 2px;
+    text-align: center;
+}
+.woo-vou-recipient-fields .voucher-image-option img {
+    display: block;
+    width: 100px;
+}
+.woo-vou-recipient-fields-wrapper-variation {
+    display: none;
+}
+.woo-vou-recipient-error {
+	padding:4px 0;
+}
+
+/*************** Expired/Upcoming Product CSS ****************/
+.woo-vou-product-expired {
+	color: #ff0000;
+    font-size: 30px;
+    opacity: 0.7;
+    position: absolute;
+    transform: rotate(-45deg);
+}
+
+/*************** Voucher Selection CSS Start ****************/
+.woo-vou-preview-template-img-wrap{
+	height: 140px;
+    overflow: auto;
+    padding: 5px;
+    width: 100%;
+}
+.woo-vou-preview-template-img{
+	height:60px !important;
+	cursor:pointer;
+	border:solid 2px #fff;
+	padding:1px;
+}
+.woo-vou-preview-template-img-border{
+	border: 2px solid rgba(81, 203, 238, 1);
+	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+}
+._woo_vou_preview_cart_img{
+	width:50px !important;
+	height:50px !important;
+	cursor:pointer;
+}
+/*************** Voucher Selection CSS End ****************/
+/*************** Custom CSS for Used Voucher Code Listing Table Start ****************/
+tr.woo-vou-used-codes-table-row-head, tr.woo-vou-used-codes-row-foot{
+	background-color:#F5F5F5;
+}
+table.woo-vou-used-codes-table{
+	width:100%;
+}
+.woo-vou-used-codes-table th{
+	padding:8px 0px;
+}
+.woo-vou-used-codes-table td, .woo-vou-used-codes-table th{
+	vertical-align: middle;
+}
+tr.woo-vou-used-codes-row-body td{
+	vertical-align: top;
+	text-align: justify;
+}
+.woo-vou-clear {
+	clear: both;
+}
+.woo-vou-no-record-message{
+	background-color: white;
+ 	margin-top: 40px;
+ 	clear: both;
+ 	padding: 9px 9px !important;
+}
+tr.woo-vou-used-codes-row-body table, tr.woo-vou-used-codes-row-body table td {
+	border: none !important;
+}
+td.woo-vou-used-code-list-codes{
+	padding-top: 12px !important;
+	font-weight: bold;
+}
+
+.woo-vou-used-codes-table.wp-list-table.fixed.widefat th.sortable, .widefat th.sorted {
+  padding: 6px 10px;
+}
+.product_info.column-product_info {
+  padding: 4px 5px;
+}
+
+.woo-vou-used-code-list-codes.code.column-code.has-row-actions.column-primary {
+  padding-left: 10px;
+}
+
+
+.product_info.column-product_info td {
+  text-align: left;
+}
+
+.woo-vou-used-codes-table td, .woo-vou-used-codes-table th {
+  color: #555555 !important;
+}
+
+.woo-vou-used-codes-table td, .woo-vou-used-codes-table td ol, .woo-vou-used-codes-table td p, .woo-vou-used-codes-table td ul {
+  font-size: 13px;
+  line-height: 1.5em;
+}
+
+.woo-vou-used-code-list-codes.code.column-code.has-row-actions.column-primary {
+  font-size: 11px;
+}
+
+.woo-vou-btn-front{
+	background: #f7f7f7 none repeat scroll 0 0 !important;
+    border-color: #ccc !important;
+    box-shadow: 0 1px 0 #ccc !important;
+    color: #555 !important;
+    vertical-align: top !important;
+    border-radius: 3px !important;
+    border-style: solid !important;
+    border-width: 1px !important;
+    box-sizing: border-box !important;
+    cursor: pointer !important;
+    display: inline-block !important;
+    font-size: 13px !important;
+    height: 28px !important;
+    line-height: 26px !important;
+    margin: 0 !important;
+    padding: 0 10px 1px !important;
+    text-decoration: none !important;
+    white-space: nowrap !important;
+    margin-bottom: 15px !important;
+}
+.woo-vou-apply-btn{
+	margin-top: -1px;
+}
+.woo-vou-grnpdf-btn{
+	float: right;
+	margin-top: -45px !important;
+}
+.woo_vou_multi_select{
+	line-height: 2.2em;
+    width: 220px !important;
+}
+.select2-container{
+	display: inline-block !important;
+}
+
+@media only screen and (max-width: 950px) {
+.woo-vou-grnpdf-btn {
+  float: left;
+  margin-top: 0 !important;
+}
+}
+
+@media only screen and (max-width: 781px) {
+
+ .woo-vou-used-codes-row-foot .no-rs-th {
+  display: none;
+}
+
+.woo-vou-used-codes-row-foot .rs-th {
+  padding-left: 10px !important;
+  text-align: left;
+}
+
+
+
+.product_info.column-product_info td {
+  padding: 2px 10px;
+}
+.woo-vou-grnpdf-btn{
+	margin-top: 0px !important;
+	display: inline-block;
+	float: left;
+}
+.woo-vou-apply-btn{
+	display: inline-block;
+}
+form.search-form input{
+	display: inline-block;
+}
+}
+
+@media only screen and (max-width: 500px) {
+
+ .woo-vou-used-codes-row-foot .no-rs-th {
+  display: none;
+}
+
+.woo-vou-used-codes-row-foot .rs-th {
+  padding-left: 10px !important;
+  text-align: left;
+}
+
+.product_info.column-product_info td {
+  padding: 2px 10px;
+}
+.woo-vou-grnpdf-btn{
+	margin-top: 0px !important;
+	display: inline-block;
+	float: left;
+}
+.woo-vou-apply-btn{
+	display: inline-block;
+}
+form.search-form input{
+	display: inline-block;
+}
+form.search-form .woo-vou-meta-datetime {
+  margin-bottom: 15px;
+  width: 100%;
+}
+}
+
+/*********************** Custom CSS for Used Voucher Code Listing Table END ************************/
+/************************************** Pagination CSS Start *****************************************/
+.woo-vou-paging {
+	clear: both;
+	margin-top: 10px;
+    text-align: center;
+}
+.woo-vou-paging .woo-vou-tablenav-pages {
+    color: #636363;
+}
+.woo-vou-paging .woo-vou-tablenav-pages .dots {
+	color: #636363 !important;
+	font-weight: bold !important;
+}
+.woo-vou-paging .woo-vou-tablenav-pages {
+    cursor: default;
+    display: block;
+    /*float: right;*/
+    line-height: 10px;
+}
+.woo-vou-paging .woo-vou-tablenav-pages a, .woo-vou-tablenav-pages span.disabled {
+	color: #636363 !important;
+	background-color: #F5F5F5;
+}
+.woo-vou-paging .woo-vou-tablenav-pages  a, 
+.woo-vou-tablenav-pages span.current, .woo-vou-tablenav-pages span.disabled{
+    padding: 3px 6px;
+    text-decoration: none;
+    margin: 0px 2.5px;
+    border: 1px solid #e7e7e7;
+    border-radius: 4px;
+    box-shadow: 0px 2px 2px 0px #CCCCCC;
+    background: linear-gradient(to bottom, #f9f9f9 0%,#efefef 44%,#e7e7e7 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#e7e7e7',GradientType=0 ); /* IE6-9 */
+}
+.woo-vou-paging .woo-vou-tablenav-pages .current {
+    font-weight: bold;
+    background-color:#F5F5F5;
+}
+.woo-vou-tablenav-pages a {
+    font-weight: normal;
+    padding: 0px 2px;
+}
+.woo-vou-used-codes-loader {
+	line-height: 31px;
+	display: none;
+	margin-top: 10px;
+    text-align: center;
+}
+.woo-vou-paging .woo-vou-tablenav-pages a:hover, 
+.woo-vou-tablenav-pages span.current:hover, 
+.woo-vou-tablenav-pages span.disabled:hover {
+    background: #e7e7e7;
+}
+
+
+.woo-vou-used-codes-table {
+	border: 1px solid #e5e5e5;
+}
+
+.woo-vou-used-codes-table > tbody > *:nth-child(2n+1), ul.striped > *:nth-child(2n+1) {
+    background-color: #f9f9f9;
+}
+/************************************** Pagination CSS End *****************************************/
+
+.woo-vou-gift-field-required {
+	color: red;
+}

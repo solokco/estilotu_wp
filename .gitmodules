@@ -1,0 +1,3 @@
+[submodule "wp-content/plugins/estilotuV2"]
+	path = wp-content/plugins/estilotuV2
+	url = https://github.com/solokco/estilotuV2.git

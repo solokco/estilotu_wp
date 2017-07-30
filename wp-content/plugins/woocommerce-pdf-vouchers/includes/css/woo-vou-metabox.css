@@ -1,0 +1,289 @@
+/********** CSS for Popup Starts ***********/
+.woo-vou-popup-content {
+    margin: 0 auto 10px;
+    height: auto;
+    display: none;
+	position: absolute;
+	/*position: fixed;*/
+	border: 1px solid #555555;
+	top: 60px;
+	/*top:10%;*/
+	text-align: left;
+	left: 10%;
+	width: 800px;
+	background: none repeat scroll 0 0 #FFFFFF;
+	z-index:1002;
+	overflow: hidden;
+	font: 12px "Lucida Grande",Verdana,Arial,sans-serif;
+	box-shadow: 0 4px 30px #000000;
+	color: #000000;	
+}
+.woo-vou-import-content {
+	position:fixed !important;
+	top: 10% !important;
+	left:17% !important;
+}
+.woo-vou-purchased-codes-popup {
+	position:fixed !important;
+	top: 10% !important;
+	left:17% !important;
+}
+.woo-vou-used-codes-popup {
+	position:fixed !important;
+	top: 10% !important;
+	left:17% !important;
+}
+.woo-vou-popup-content .description {
+	margin-left: 0px !important
+}
+.woo-vou-popup-content .description small {
+	margin-left: 5px;
+}
+.woo-vou-popup-overlay {
+	display: none;
+	background-color: #000000;
+    height: 100%;
+    left: 0;
+    opacity: 0.75;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1001;
+}
+.woo-vou-header-title {
+    float: left;
+    padding: 6px 10px 0;
+}
+.woo-vou-popup-close {
+ 	float: right;
+    padding: 6px 10px 0;
+    text-align: right;
+}
+.woo-vou-header {
+    background-color: #222222;
+    color: #cfcfcf;
+    height: 27px;
+    position: relative;
+    width: 100%;
+}
+.woo-vou-popup table.form-table th {
+	font-weight:bold;
+	padding:7px !important;
+	font-family:verdana !important;
+	font-size:13px !important;
+}
+.woo-vou-popup table.form-table td {
+	padding: 3px 10px !important;
+}
+.woo-vou-popup table.form-table {
+	margin-bottom: 10px;
+}	
+.woo-vou-popup.used-codes table.form-table td,
+.woo-vou-popup.used-codes table.form-table th {
+	padding:3px 10px !important;
+	border:1px solid #000000 !important;
+}
+.woo-vou-popup.used-codes table.form-table {
+	border:1px solid #000000;
+}
+.woo-vou-popup table.form-table {
+	/*margin : 15px !important;*/
+	width: 100% !important;
+	font-family:verdana !important;
+}
+.woo-vou-popup table.form-table input[type="text"], .woo-vou-popup table.form-table select {
+	width: 100px;
+}
+.woo-vou-field-title {
+	vertical-align: top;
+}
+.woo-vou-prefix-span {
+	margin-right: 63px;
+}
+.woo-vou-seperator-span {
+	margin-right: 20px;
+}
+.woo-vou-code-seperator {
+	width: 50px !important;
+	margin-right: 35px;
+}
+.woo-vou-loader {
+	display: none;
+}
+table.woo-vou-import-table th{
+	text-align:left !important;
+	width:30% !important;
+}
+.woo-vou-file-errors{
+	display:none;
+	background-color: #FFEBE8;
+    border-color: #CC0000;
+    border-radius: 3px 3px 3px 3px;
+    border-style: solid;
+    border-width: 1px;
+    padding:5px;
+}
+#woo-vou-pdf-btn {
+	float: right;
+	margin-bottom: 5px;
+}
+#woo-vou-export-csv-btn {
+	float: right;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.woo-vou-used-code-title {
+	float: left;
+	margin-top: 5px;
+}
+/***************** CSS for Popup Ends******************/
+#woo_vou_voucher input[type="button"], #woo_vou_voucher input[type="submit"] { 
+	width: inherit;
+	margin-left: 0px !important;
+	float: inherit !important;
+}
+#woo_vou_voucher input[type="checkbox"], #woo_vou_voucher input[type="radio"] {
+	margin: 7px 0;
+	vertical-align: middle;
+	width: auto;
+}
+#woo_vou_voucher p.form-field {
+	padding-left: 5px !important;
+}
+#woo_vou_voucher label {
+	width: 23% !important;
+	margin-left: 0 !important;
+	margin-bottom: 7px;
+}
+#woo_vou_voucher label.wps-editor-label {
+	width: 18% !important;
+	padding-left: 5px !important;
+}
+#woo_vou_voucher .form-field textarea {
+	width: 77%;
+	height: 200px !important;
+}
+#woo_vou_voucher .mupload_img_holder {
+	margin-right: 5px;
+}
+#woo_vou_voucher .description {
+	clear: both;
+	float: left;
+	margin: 0 0 0 23%;
+	padding: 0;
+}
+#woocommerce-coupon-data ul.wc-tabs li.woo_vou_voucher_tab a:before, #woocommerce-product-data ul.wc-tabs li.woo_vou_voucher_tab a:before, .woocommerce ul.wc-tabs li.woo_vou_voucher_tab a:before{
+	/*background: url("../images/voucher.png") no-repeat scroll left top #F1F1F1 !important;*/
+}
+.product_data_tabs li.active a {
+	 background-color: #F8F8F8 !important;
+}
+.woo-vou-meta-radio{
+	float:left;
+	margin-top: 4px !important;
+}
+.woo-vou-repeater-text{
+	width: 76% !important;
+}
+.woo_vou_siteurl_text {
+    width: 50% !important;
+}
+.woo_vou_repeater{
+	float: left;
+    width: 19%;
+}
+.woo_vou_location{
+	width:77% !important;
+}
+.woo-vou-meta-repeat {
+	float: left;
+    width: 71%;
+}
+.woo-vou-meta-radio-label {
+	width: inherit !important;
+}
+.wc-metaboxes-wrapper .chosen-container {
+	width: 200px !important;
+}
+.woo-vou-display-none {
+	display: none;
+}
+.woo-vou-codes-error {
+	color: #FF0000;
+}
+.woo-vou-days-error{
+	color: #FF0000;
+}
+.woo-vou-codes-red-border {
+	border: 1px solid #FF0000 !important;
+}
+.wc-metaboxes-wrapper .chosen-container .chosen-results {
+	clear: both;
+}
+.custom-days-text{
+	width :30% !important;
+	margin-right: 5px !important;
+}
+._woo_vou_custom_days_field {
+  display: inline-block;
+  margin-left: 10px;
+  width: 40%;
+}
+._woo_vou_days_diff_field{
+	display: inline;
+}
+._woo_vou_days_diff_field #custom_label{
+	margin-left: 5px !important;
+}
+.description-custom{
+	margin: 0 0 0 0 !important;
+}
+#woo-vou-export-csv-btn {
+  float: right;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.recipient-detail-wrap{
+	margin-left: 23%;
+}
+.woo_vou_recipient_details .woo_vou_recipient_text{
+	width: 90% !important;
+}
+.woo-vou-fade-error {
+    background: none repeat scroll 0 0 #0073AA;
+    border-radius: 10px;
+    top: 50%;
+    color: #fff;
+    left: 45%;
+    opacity: 0.8;
+    padding: 10px;
+    position: fixed;
+    text-align: center;
+    width: 200px;
+    z-index: 100;
+}
+.woo-vou-pdf-template-variation-label {
+	display:inline-block;
+}
+.woo-vou-popup {
+    height: 410px;
+    overflow: auto;
+    padding: 25px;
+}
+#woo_vou_voucher label.woo-vou-meta-multi-checkbox-label{
+	margin-left: 5px !important;
+    margin-right: 10px !important;
+    width: 93px !important;
+}
+.vou_clearfix::after {
+  float: left;
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+._woo_vou_custom_days_field {
+  clear: both;
+}
